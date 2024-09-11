@@ -9,3 +9,5 @@ My potential project ideas are as follows:
 - extend the original project by adding my bufforpington dataset (compiled using random images from Google Images) to the classes and seeing if a model similar to the one used can identify them
 - develop a model to see if a breed is an orpington or not, regardless of colour --> original dataset uses blackorpington; by including my bufforpington, I can develop a wider orpington dataset and try to finetune the model to identify orpingtons by shape
 - develop a model to identify distinct breeds which share the same colour variety,  i.e. identify a Buff Orpington from a Buff Plymouth Rock, or a Black Orpington from a Black Peking --> would require searching for more images and compiling another dataset
+
+Images that have been uploaded are only the original form ones. To get the resized and augmented ones, you must have the file structure in colab such that the notebook is in a folder with the original images folder. It will then create the necessary directories and fill them as required.
